@@ -19,9 +19,10 @@ public class Constants {
 	    
 	    //The email used to send the email
 	    public static final String Toemail = "hiring@coriolis.co.in";
-	    public static final String Subjemail = "Assignment for QA Position";
+	    //public static final String Toemail = "tarunam@gmail.com";
+	    public static final String Subjemail = "Assignment for QA Position - From Tarunam Nair";
 	    
-	    public static final String Mailbody = "Name :- Tarunam"+"\n"+"Email :- tarunam@gmail.com"+ "\n" +"Phone :- 9665605154"+"\n"+"Link to github :- ";    
+	    public static final String Mailbody = "Name :- Tarunam Nair"+"\n"+"Email :- tarunam@gmail.com"+ "\n" +"Phone :- 9665605154"+"\n"+"Link to github :- https://github.com/tarunam/Gmail-QA";    
 	
 	    
 	}
