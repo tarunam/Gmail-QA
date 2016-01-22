@@ -5,6 +5,7 @@
 package GmailPackage;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.NoAlertPresentException;
 import org.openqa.selenium.WebDriver;
 
 /**
@@ -39,7 +40,11 @@ public class ComposeMail {
 	    driver.findElement(By.linkText("Sign out")).click();
 		  
 		//Close the browser.
-		driver.switchTo().alert().accept();
+	    try{
+	    	driver.switchTo().alert().accept();
+	    }catch(NoAlertPresentException e){
+	    	driver.close();	    	
+	    }
 		
 	}
 	
