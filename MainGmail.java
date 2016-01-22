@@ -36,7 +36,7 @@ public class MainGmail {
 		  ComposeMail.composingemail(driver);	  	   
 		
 		  System.out.println("Success");
-		  //driver.close();
+		  driver.close();
 		
 	}
 
